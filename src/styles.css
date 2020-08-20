@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+
+ul pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+input {
+  padding-left: 35px;
+  color: $color-gray-one;
+  box-shadow: 2px 3px 28px 1px rgba(0, 0, 0, 0.1);
+  border: 0px solid transparent;
+  border-radius: 5px;
+
+  height: 50px;
+  font-size: 40px;
+
+  &::placeholder {
+    color: #b3b3b3;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
+  }
+}
